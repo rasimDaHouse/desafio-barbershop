@@ -1,0 +1,32 @@
+.navbar{
+    background-color: $Eerie-black ;
+    
+    &__ul{
+        margin-left: auto;
+        padding-right: 3.1rem;
+    }
+        &__item{
+         padding: 0.6rem 0;
+        
+  }
+}
+
+.navbar__link{
+    color: $white;
+    text-decoration: none;
+    padding-right: 1.8rem;
+    font-family: 'roboto';
+
+    &--hover:hover{
+        color: $nickel;
+
+        &:active{
+            color: $ruddy-pink;
+        }
+    }
+
+}
+
+.navbar__logo{
+    width: 4.6rem;
+}

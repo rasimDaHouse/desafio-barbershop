@@ -1,0 +1,65 @@
+
+.container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    @include large-breakpoint{
+        padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+}
+
+
+.author__links {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include large-breakpoint{
+        align-items: center;
+        
+    }
+  
+}
+
+
+.author__name {
+    font-style: italic;
+    font-weight: 900;
+    padding-left: 4rem;
+
+    @include large-breakpoint{
+        padding-right: 4rem;
+    }
+    
+}
+
+.author__list {
+    list-style: none;
+    padding-left: 4rem;
+    
+    
+    
+    
+}
+
+.author__link {
+    text-decoration: none;
+    color: $spanish-pink;
+    font-size: $lg;
+
+    @include large-breakpoint{
+        padding-right: 4rem;
+    }
+    
+
+
+    &--hover:hover {
+        color: $raisin-black;
+    }
+
+    &--active:active {
+        color: $light-gray;
+    }
+}

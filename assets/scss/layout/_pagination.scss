@@ -1,0 +1,33 @@
+.pagination {
+  background: $light-gray;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  &__nav {
+    margin: auto;
+
+    ul {
+      margin: 0;
+    }
+  }
+}
+
+.pagination .page-item .pagination__link {
+  color: $Eerie-black;
+  font-weight: bold;
+
+  &--prev {
+    border-radius: 40px 0 0 40px;
+    color: $nickel;
+    font-weight: normal;
+  }
+
+  &--next {
+    border-radius: 0 40px 40px 0;
+  }
+
+  &--active {
+    color: $white;
+    background: $Eerie-black;
+  }
+}

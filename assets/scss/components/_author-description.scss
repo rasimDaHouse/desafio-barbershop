@@ -1,0 +1,15 @@
+.author__description {
+    @include center-element-flex;
+   
+    p {
+        font-weight: 300;
+        line-height: 1.5;
+        text-align: left;
+
+        @include large-breakpoint{
+            display: none;
+        }
+
+    }
+}
+

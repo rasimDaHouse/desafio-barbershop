@@ -1,0 +1,17 @@
+
+.author__thumbnail {
+    text-align: center;
+
+   & img {
+       max-width: 12rem;
+    border-radius: 50%;
+    padding: 4rem 0;
+
+    @include large-breakpoint{
+        max-width: 10rem;
+        padding: 1rem 0;
+        text-align: center;
+        
+    }
+   }
+}

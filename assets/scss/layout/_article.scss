@@ -1,0 +1,39 @@
+.post{
+    margin-top: 4rem;
+    border-bottom: 1px solid $light-gray;
+
+    @include large-breakpoint{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    &__date{
+        color: $nickel;
+        font-family: 'playfair display';
+        margin-bottom: 3rem;
+    }
+
+        &__content{
+            margin-bottom: 5rem;
+
+            p{
+                line-height: 2;
+                margin-bottom: 3rem;
+                color: $nickel;
+            }
+        }
+
+        a{
+            color: $spanish-pink;
+            text-decoration: none;
+
+            &:hover{
+                color: $raisin-black;
+            }
+
+            &:focus{
+                color: $light-gray;
+            }
+
+            }
+    }

@@ -1,0 +1,13 @@
+footer{
+    background-color: $Eerie-black;
+    text-align: center;
+    padding: 4rem 1rem;
+
+    img{
+        max-width: 9.3rem;
+
+        @include large-breakpoint{
+            max-width: 6rem;
+        }
+    }
+}

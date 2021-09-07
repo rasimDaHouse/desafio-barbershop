@@ -1,0 +1,11 @@
+@mixin center-element-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin large-breakpoint {
+    @media (max-width: $breakpoint-lg) {
+        @content; // Aca se incluyen los estilos extra
+    }
+}
